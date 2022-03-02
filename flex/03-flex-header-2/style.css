@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display:flex;
   align-items:center;
-  padding:6px;
+  padding:8px;
 }
 
 .header .right-side {
@@ -36,7 +36,8 @@ body {
 }
 .links {
   display:flex;
-  gap:20px;
+  gap:16px;
+  margin:-10px;
 }
 
 .right-side {
@@ -50,7 +51,6 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  height:35px;
 }
 
 a {
