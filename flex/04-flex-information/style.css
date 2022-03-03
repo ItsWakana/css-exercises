@@ -16,10 +16,12 @@ img {
 
 .flex-container {
   display:flex;
+  justify-content: center;
   gap:52px;
 }
 
-.images{
+.images {
+  width:200px;
   text-align:center;
 }
 
