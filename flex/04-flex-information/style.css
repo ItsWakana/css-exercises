@@ -19,6 +19,10 @@ img {
   gap:52px;
 }
 
+.flex-container div div {
+  text-align:center;
+}
+
 
 /* do not edit this footer */
 .footer {
