@@ -2,6 +2,7 @@
 
 a {
   text-decoration:none;
+  color:rgb(48, 48, 48);
 }
 body {
   height: 100vh;
@@ -14,10 +15,9 @@ body {
 
 li {
   display:inline;
+  padding:8px;
 }
-ul {
-  list-style-type: none;
-}
+
 .content {
   display:flex;
   flex-direction: column;
@@ -27,6 +27,9 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-left: -35px;
+  padding-right: 5px;
+  
 }
 
 img {
@@ -51,5 +54,8 @@ input {
 .footer {
   display:flex;
   justify-content: space-between;
+  margin-left:-35px;
   margin-top:auto;
+  background-color: rgb(204, 201, 201);
+  padding-right:5px;
 }
