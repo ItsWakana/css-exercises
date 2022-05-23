@@ -89,8 +89,8 @@
   background-color: #bccbde;
   grid-column-start: 2;
   display: grid;
-  grid-template-rows: 20% 20%;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 10px;
 }
 
